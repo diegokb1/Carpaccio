@@ -11,7 +11,7 @@ import cucumber.api.SnippetType;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(strict=true, monochrome=true, format="junit:output", snippets=SnippetType.CAMELCASE, features="src/test/resources/ort/isagil/calculator/")
+@CucumberOptions(strict = true, monochrome = true, format = "junit:output", snippets = SnippetType.CAMELCASE, features = "src/test/resources/ort/isagil/carpaccio/")
 public class RunCukesTest {
     // this is the adapter/bridge code
     // between cucumber jvm and junit
